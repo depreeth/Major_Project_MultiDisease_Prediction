@@ -242,9 +242,9 @@ if (selected == 'Brain Tumor Prediction'):
         
         # Map prediction to corresponding label
         if prediction < 0.6:
-            brain_tumor_diagnosis = "The person has Brain Tumor disease.",prediction
+            brain_tumor_diagnosis = "The person has Brain Tumor disease."
         else:
-            brain_tumor_diagnosis = "The person does not have Brain Tumor disease.",prediction
+            brain_tumor_diagnosis = "The person does not have Brain Tumor disease."
 
         # Display the prediction result
         st.success(brain_tumor_diagnosis)
